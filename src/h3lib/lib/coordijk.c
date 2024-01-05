@@ -144,6 +144,9 @@ void _hex2dToCoordIJK(const Vec2d *v, CoordIJK *h) {
     }
 
     _ijkNormalize(h);
+
+    // PRINT STATEMENT FOR TESTING WITH zk CIRCUIT
+    printf("I: %d, J: %d, K: %d  --- ", h->i, h->j, h->k);
 }
 
 /**
